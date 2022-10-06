@@ -6,8 +6,12 @@
 .nav a {
       text-decoration: none;
       margin: 10px;
-      color: white;
-      background-color: darkgreen;
+      /* color: white;
+      background-color: darkgreen; */
       padding: 5px 10px;
       border-radius: 10px;
+}
+
+.active {
+      background-color: red;
 }

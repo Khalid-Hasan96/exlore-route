@@ -13,7 +13,7 @@ const Post = ({ post }) => {
                   <h3>{title}</h3>
                   <p>{body}</p>
                   <Link to={`/post/${id}`}>
-                        <button>Show Details</button>
+                        <button>Show Details: {id}</button>
                   </Link>
                   <button onClick={handleNavigate}>Show Details2</button>
             </div>
